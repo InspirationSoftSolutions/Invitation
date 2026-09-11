@@ -15,7 +15,7 @@
   <meta property="og:description"
     content="Ganpati Bappa Morya. The whole utsav on one link - sthapana to visarjan with every aarti time, the address with a map button, RSVP so the family knows who is coming, and the aarti playing. A demo by Invifest." />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="ganpati-invitation-preview.png" />
+  <meta property="og:image" content="ganpati-invitation-preview.jpg" />
   <meta property="og:image:alt" content="Bhandari Family Ganesh Chaturthi Celebration invitation" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
@@ -5439,7 +5439,9 @@
           openInvitation();
         }
 
+        ringBtn.addEventListener('touchstart', activateBell, false);
         ringBtn.addEventListener('touchend', activateBell, false);
+        ringBtn.addEventListener('pointerup', activateBell, false);
         ringBtn.addEventListener('click', activateBell);
       }
 
